@@ -1,0 +1,49 @@
+#content{
+width: 50%;
+height: 25%;
+}
+
+.fig{
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.form{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	opacity:  60%;
+	border: 2px solid black;
+}
+
+.red_circule{
+
+	background-color: #f03629;
+	margin-left: 100px;
+}
+.gren_circule{
+	background-color: #28b563;
+	margin-left: 140px;
+	margin-top: -40px;
+}
+.blue_circule{
+	background-color: #4692f0;
+	margin-left: 60px;
+	margin-top: -102px;
+}
+.fig_tran{
+transform:translate(20px, 30px)
+}
+.red_circule_tran{
+background-color: #f03629;
+transform:translateX(100px)
+}
+.gren_circule_tran{
+background-color: #28b563;
+transform:translate(140px, -40px)
+}
+.blue_circule_tran{
+background-color: #4692f0;
+transform:translate(60px, -142px)
+
